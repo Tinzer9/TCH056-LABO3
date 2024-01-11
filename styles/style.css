@@ -4,10 +4,10 @@
                          "e f g h"
                          "i j k l"
                          "m n o p";
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: px;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: repeat(4, 70px);
     border: 1px dashed black;
-    height: 50%;
+    justify-content: center;
 }
 
 .zone-grandes-boites {
@@ -15,9 +15,9 @@
 }
 
 .zone-grandes-boites div {
-    size-adjust: auto;
     justify-content: space-between;
     width: 33%;
+    margin: 10px;
 }
 
 div {
