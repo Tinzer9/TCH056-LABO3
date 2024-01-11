@@ -1,0 +1,119 @@
+header {
+  text-align: center;
+}
+
+#corps {
+  text-align: center;
+}
+
+#logo {
+  width: 40%;
+}
+
+.zone-petites-boites {
+  display: grid;
+  grid-template-areas: "a b c d" "e f g h" "i j k l" "m n o p";
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(4, 25%);
+  border: 1px solid pink;
+  border-radius: 10px;
+  height: 400px;
+  row-gap: 15px;
+  column-gap: 20px;
+  padding-bottom: 45px;
+  padding-right: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-items: center;
+  align-items: center;
+}
+
+.photos-grille:hover {
+  transform: scale(1.5);
+  transition: 2s;
+}
+
+.photos-grille {
+  width: 50%;
+  height: 50%;
+}
+
+#a {
+  grid-area: a;
+}
+
+#b {
+  grid-area: b;
+}
+
+#c {
+  grid-area: c;
+}
+
+#d {
+  grid-area: d;
+}
+
+#e {
+  grid-area: e;
+}
+
+#f {
+  grid-area: f;
+}
+
+#g {
+  grid-area: g;
+}
+
+#h {
+  grid-area: h;
+}
+
+#i {
+  grid-area: i;
+}
+
+#j {
+  grid-area: j;
+}
+
+#k {
+  grid-area: k;
+}
+
+#l {
+  grid-area: l;
+}
+
+#m {
+  grid-area: m;
+}
+
+#n {
+  grid-area: n;
+}
+
+#o {
+  grid-area: o;
+}
+
+#p {
+  grid-area: p;
+}
+
+.zone-petites-boites > * {
+  border: 1px solid black;
+}
+
+.zone-grandes-boites {
+  display: flex;
+}
+
+.zone-grandes-boites div {
+  justify-content: space-between;
+  width: 33%;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
