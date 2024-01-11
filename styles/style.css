@@ -5,7 +5,7 @@
                          "i j k l"
                          "m n o p";
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: ;
+    grid-template-rows: px;
     border: 1px dashed black;
     height: 50%;
 }
